@@ -1,0 +1,13 @@
+.drinksItem {
+  width: 100%;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.drinksItem:hover,
+.drinksItemActive {
+  font-weight: bold;
+  background-color: var(--color-active);
+}

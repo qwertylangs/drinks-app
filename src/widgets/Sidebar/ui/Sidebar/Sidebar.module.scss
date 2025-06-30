@@ -1,0 +1,21 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: var(--sidebar-width);
+  background-color: var(--color-sidebar);
+  padding: 16px;
+  padding-top: calc(var(--navbar-height) + 10px);
+  transition: transform 0.3s ease;
+  z-index: 10;
+  border-right: 1px solid var(--color-border);
+
+  @media (max-width: 768px) {
+    transform: translateX(-100%);
+
+    &.open {
+      transform: translateX(0);
+    }
+  }
+}

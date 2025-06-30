@@ -1,0 +1,21 @@
+.errorWrapper {
+  padding: 2rem;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.description {
+  opacity: 0.9;
+  margin-bottom: 2rem;
+}

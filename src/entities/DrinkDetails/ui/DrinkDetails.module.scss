@@ -1,0 +1,32 @@
+.details {
+  flex-shrink: 1;
+}
+
+.detailsTitle {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.detailsText {
+  margin: 4px 0;
+}
+
+.ingredients {
+  margin-top: 16px;
+}
+
+.ingredientsTitle {
+  margin-bottom: 8px;
+}
+
+.ingredientsList {
+  max-width: 400px;
+  list-style: none;
+  padding-left: 0;
+}
+
+.ingredientItem {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4px;
+}

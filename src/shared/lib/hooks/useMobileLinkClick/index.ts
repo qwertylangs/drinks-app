@@ -1,0 +1,1 @@
+export { useMobileLinkClick } from './useMobileLinkClick';

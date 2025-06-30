@@ -1,0 +1,1 @@
+export { useVariantTabs } from './useVariantTabs';

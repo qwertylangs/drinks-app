@@ -1,0 +1,35 @@
+@import "reset";
+
+:root {
+  --color-bg: #f7f6f2;
+  --color-sidebar: #f2eae4;
+  --color-active: #d8cfc4;
+  --color-thumb-bg: #e8e1db;
+  --color-border: #ccc;
+  --color-text: #333;
+  --color-muted: #777;
+  --color-primary: #6c757d;
+  --sidebar-width: 220px;
+  --navbar-height: 55px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+
+  @media (min-width: 768px) {
+    margin-left: var(--sidebar-width);
+  }
+}

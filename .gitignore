@@ -1,0 +1,11 @@
+/build
+node_modules
+.idea
+/reports
+/dist
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
