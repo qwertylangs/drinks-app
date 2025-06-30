@@ -13,7 +13,6 @@ root.render(
     <StoreProvider>
       <ErrorBoundary>
         <App />
-
       </ErrorBoundary>
     </StoreProvider>
   </BrowserRouter>,
